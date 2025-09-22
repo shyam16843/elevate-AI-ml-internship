@@ -18,11 +18,16 @@ The dataset consists of product-related features with missing data points, such 
 
 ## Visualization
 
-The script generates boxplots for the numerical features (e.g., Price, Rating, Stock, Discount) to visualize outliers. These boxplots help identify extreme values in the data.
+![Boxplots](Figure_1.png)
 
-A suptitle "Boxplots of Numerical Features" is displayed above the plots for clarity.
+**Description:**  
+- Boxplots for numerical features such as Price, Rating, Stock, and Discount.  
+- Visualizes the distribution and identifies outliers in the data before cleaning.
 
-After visualizing, the script uses the Interquartile Range (IQR) method to remove outliers and prints the shape of the cleaned dataset.
+**Insights:**  
+- Helps understand the spread and variability of each numerical feature.  
+- Identifies potential outliers that can skew analysis or model performance.  
+- These outliers are then removed using the IQR method to clean the data.dataset.
 
 ## Output
 
@@ -70,33 +75,6 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 ```bash
 python datacleaning.py
 ```
-
-## Visualization
-
-![Boxplots](Figure_1.png)
-
-**Description:**  
-- Boxplots for numerical features such as Price, Rating, Stock, and Discount.  
-- Visualizes the distribution and identifies outliers in the data before cleaning.
-
-**Insights:**  
-- Helps understand the spread and variability of each numerical feature.  
-- Identifies potential outliers that can skew analysis or model performance.  
-- These outliers are then removed using the IQR method to clean the data.dataset.
-
-## Output
-
-- The script outputs dataset information before and after cleaning.
-- Visualizes boxplots of numerical features to identify outliers.
-- Prints the shape of the cleaned dataset after outlier removal.
-
-## Notes
-
-- The code uses median and mode imputation to handle missing values.
-- Outliers are detected and removed using the IQR rule for cleaner data.
-- Encoding converts categorical variables to numeric for ML models.
-
----
 
 ## Contact
 
