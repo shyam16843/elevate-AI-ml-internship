@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folder
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings folder
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Python data files
+*.sqlite3
+*.db
+*.bak
+
+# Logs and reports
+*.log
+*.out
+*.err
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Data files
+*.csv
+*.h5
+*.hdf5
+*.npz
+*.pkl
+*.joblib
+
+# TensorFlow / PyTorch specific
+checkpoint
+saved_model/
+.tfhub_cache/
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Misc
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+#datasets
+task1_cleaning/synthetic_dataset.csv
