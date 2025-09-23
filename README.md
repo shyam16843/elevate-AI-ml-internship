@@ -11,13 +11,27 @@ This repository contains all projects and tasks completed during my AI & ML inte
 - **Status**: Completed ✅
 - [View Project](./task1-Retail-Product-Data-Cleaning/README.md)
 
+### Task 2: Exploratory Data Analysis (EDA) - Housing Prices
+- **Description**: Comprehensive exploratory data analysis on housing prices dataset featuring statistical analysis, correlation matrices, distribution visualizations, outlier detection, and pattern recognition.
+- **Technologies**: Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-learn
+- **Status**: Completed ✅
+- [View Project](./task2-eda/README.md)
+- **Key Features**:
+  - Summary statistics and descriptive analysis
+  - Correlation heatmaps and pairplots
+  - Histograms and boxplots for distribution analysis
+  - Interactive visualizations with Plotly
+  - Outlier detection and anomaly analysis
+  - Feature relationship insights
+
 ### (Add other tasks here as you complete them, following the same format)
 
 ## Progress Tracking
 
 | Task | Project Name                                 | Status    | Completion Date |
-|-------|----------------------------------------------|-----------|-----------------|
-| 1     | Retail Product Data Cleaning and Preprocessing | Completed | 2025-09-22      |
+|------|----------------------------------------------|-----------|-----------------|
+| 1    | Retail Product Data Cleaning and Preprocessing | Completed | 2025-09-22      |
+| 2    | Exploratory Data Analysis (EDA) - Housing Prices | Completed | 2025-09-23      |
 | (Add entries for other tasks)                   |           |                 |
 
 ## Installation
