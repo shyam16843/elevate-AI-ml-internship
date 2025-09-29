@@ -60,8 +60,28 @@ This repository contains all projects and tasks completed during my AI & ML inte
   - ROC-AUC: 99.81%
   - F1-Score: 99.07%
 
-
-### (Add other tasks here as you complete them, following the same format)
+### Task 5: Car Evaluation Classification using Decision Trees and Random Forests
+- **Description**: Advanced classification system for car acceptability prediction featuring Decision Trees, Random Forests, hyperparameter tuning with GridSearchCV, feature importance analysis, and comprehensive model evaluation.
+- **Technologies**: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+- **Status**: Completed ✅
+- [View Project](./task5-decision_tree/README.md)
+- **Key Features**:
+  - Decision Tree optimization with overfitting analysis
+  - Random Forest ensemble implementation
+  - Hyperparameter tuning with GridSearchCV (1080 model fits)
+  - Feature importance analysis across multiple models
+  - Cross-validation reliability testing
+  - Comprehensive business insights and recommendations
+- **Performance**:
+  - Decision Tree (Optimized): 98.84% accuracy
+  - Random Forest (Basic): 98.27% accuracy
+  - Random Forest (Tuned): 98.27% accuracy
+  - All models achieve >98% classification accuracy
+- **Key Insights**:
+  - Safety is the most critical factor (27.5% importance)
+  - Capacity is second most important (22.6%)
+  - Ensemble methods provide better generalization
+  - Cross-validation shows Random Forest as most reliable
 
 ## Progress Tracking
 
@@ -71,6 +91,7 @@ This repository contains all projects and tasks completed during my AI & ML inte
 | 2    | Exploratory Data Analysis (EDA) - Housing Prices | Completed | 2025-09-23      |
 | 3    | Linear Regression - Diabetes Disease Progression | Completed | 2025-09-24      |
 | 4    | Logistic Regression - Breast Cancer Diagnosis    | Completed | 2025-09-25      |
+| 5    | Decision Trees & Random Forests - Car Evaluation | Completed | 2025-09-26      |
 |      | (Add entries for other tasks)                    |           |                 |
 
 ## Installation
@@ -82,16 +103,20 @@ Each project has its own dependencies. Please refer to the respective project RE
 - **Data Preprocessing**: Missing value handling, outlier detection, normalization, encoding
 - **Exploratory Data Analysis**: Statistical analysis, correlation studies, visualization
 - **Machine Learning**: Linear regression, logistic regression, regularization, model evaluation, cross-validation
-- **Classification Algorithms**: Binary classification, threshold optimization, ROC analysis
-- **Data Visualization**: Matplotlib, Seaborn, Plotly, correlation heatmaps, residual plots, ROC curves
-- **Python Libraries**: Pandas, NumPy, Scikit-learn, SciPy
+- **Classification Algorithms**: Binary classification, threshold optimization, ROC analysis, Decision Trees, Random Forests
+- **Ensemble Methods**: Random Forest implementation, hyperparameter tuning, feature importance
+- **Advanced Optimization**: GridSearchCV, automated parameter selection, model comparison
+- **Data Visualization**: Matplotlib, Seaborn, Plotly, correlation heatmaps, residual plots, ROC curves, decision trees
+- **Python Libraries**: Pandas, NumPy, Scikit-learn, SciPy, pmdarima
 
 ### Analytical Skills
 - Statistical analysis and interpretation
 - Model performance evaluation and comparison
-- Feature importance analysis
-- Medical/domain insights extraction (healthcare diagnostics)
+- Feature importance analysis across multiple algorithms
+- Medical/domain insights extraction (healthcare diagnostics, automotive evaluation)
 - Precision-recall tradeoff analysis
+- Overfitting detection and prevention
+- Ensemble method reliability assessment
 - Data-driven decision making
 
 ## Learning Outcomes
@@ -99,11 +124,22 @@ Each project has its own dependencies. Please refer to the respective project RE
 Through these projects, I have developed strong competencies in:
 - End-to-end data science pipeline implementation
 - Advanced statistical analysis and visualization
-- Machine learning model development and evaluation (both regression and classification)
-- Domain-specific insight extraction (retail, real estate, healthcare diagnostics)
+- Machine learning model development and evaluation (regression, classification, ensemble methods)
+- Domain-specific insight extraction (retail, real estate, healthcare diagnostics, automotive)
 - Medical analytics and clinical decision support systems
+- Hyperparameter optimization and model tuning
+- Ensemble method implementation and evaluation
 - Professional documentation and code organization
+- Business intelligence extraction from machine learning models
 
+## Project Evolution
+
+The internship projects demonstrate progressive complexity:
+1. **Foundation**: Data cleaning and preprocessing fundamentals
+2. **Analysis**: Exploratory data analysis and visualization techniques
+3. **Regression**: Linear models with regularization and validation
+4. **Classification**: Binary classification with medical applications
+5. **Advanced ML**: Ensemble methods, tree-based algorithms, hyperparameter tuning
 
 ## Contact
 - **Name:** Ghanashyam T V  
