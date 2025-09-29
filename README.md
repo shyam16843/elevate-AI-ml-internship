@@ -91,7 +91,7 @@ This repository contains all projects and tasks completed during my AI & ML inte
 | 2    | Exploratory Data Analysis (EDA) - Housing Prices | Completed | 2025-09-23      |
 | 3    | Linear Regression - Diabetes Disease Progression | Completed | 2025-09-24      |
 | 4    | Logistic Regression - Breast Cancer Diagnosis    | Completed | 2025-09-25      |
-| 5    | Decision Trees & Random Forests - Car Evaluation | Completed | 2025-09-26      |
+| 5    | Decision Trees & Random Forests - Car Evaluation | Completed | 2025-09-29      |
 |      | (Add entries for other tasks)                    |           |                 |
 
 ## Installation
