@@ -83,16 +83,41 @@ This repository contains all projects and tasks completed during my AI & ML inte
   - Ensemble methods provide better generalization
   - Cross-validation shows Random Forest as most reliable
 
+### Task 6: K-Nearest Neighbors (KNN) Classification - Handwritten Digit Recognition
+- **Description**: Comprehensive handwritten digit classification system using K-Nearest Neighbors algorithm with advanced hyperparameter optimization, distance metric analysis, weighting strategy comparison, and comprehensive model evaluation achieving 98.15% accuracy.
+- **Technologies**: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+- **Status**: Completed ✅
+- [View Project](./task6-KNN/README.md)
+- **Key Features**:
+  - Systematic K value optimization (1-20) with cross-validation
+  - Distance metric comparison (Euclidean, Manhattan, Chebyshev, Minkowski)
+  - Weighting strategy analysis (uniform vs distance-based)
+  - Decision boundary visualization using PCA
+  - Comprehensive error analysis and misclassification patterns
+  - Model comparison against SVM and Random Forest
+- **Performance**:
+  - **KNN (Optimized)**: 98.15% accuracy
+  - **Best Parameters**: K=1, Manhattan distance, distance weighting
+  - **Cross-validation**: 97.21% accuracy
+  - **Weighting Improvement**: +0.40% accuracy gain
+- **Key Insights**:
+  - K=1 works best indicating well-separated digit classes
+  - Manhattan distance outperforms Euclidean for image data
+  - Distance weighting provides consistent improvements across most K values
+  - Model achieves competitive performance against complex algorithms
+  - Excellent computational efficiency (0.002s training time)
+
 ## Progress Tracking
 
-| Task | Project Name                                     | Status    | Completion Date |
-|------|--------------------------------------------------|-----------|-----------------|
-| 1    | Retail Product Data Cleaning and Preprocessing   | Completed | 2025-09-22      |
-| 2    | Exploratory Data Analysis (EDA) - Housing Prices | Completed | 2025-09-23      |
-| 3    | Linear Regression - Diabetes Disease Progression | Completed | 2025-09-24      |
-| 4    | Logistic Regression - Breast Cancer Diagnosis    | Completed | 2025-09-25      |
-| 5    | Decision Trees & Random Forests - Car Evaluation | Completed | 2025-09-29      |
-|      | (Add entries for other tasks)                    |           |                 |
+| Task | Project Name                                       | Status    | Completion Date |
+|------|----------------------------------------------------|-----------|-----------------|
+| 1    | Retail Product Data Cleaning and Preprocessing     | Completed | 2025-09-22      |
+| 2    | Exploratory Data Analysis (EDA) - Housing Prices   | Completed | 2025-09-23      |
+| 3    | Linear Regression - Diabetes Disease Progression   | Completed | 2025-09-24      |
+| 4    | Logistic Regression - Breast Cancer Diagnosis      | Completed | 2025-09-25      |
+| 5    | Decision Trees & Random Forests - Car Evaluation   | Completed | 2025-09-29      |
+| 6    | KNN Classification - Handwritten Digit Recognition | Completed | 2025-09-30      |
+|      | (Add entries for other tasks)                      |           |                 |
 
 ## Installation
 Each project has its own dependencies. Please refer to the respective project README for environment setup and running instructions.
@@ -103,20 +128,23 @@ Each project has its own dependencies. Please refer to the respective project RE
 - **Data Preprocessing**: Missing value handling, outlier detection, normalization, encoding
 - **Exploratory Data Analysis**: Statistical analysis, correlation studies, visualization
 - **Machine Learning**: Linear regression, logistic regression, regularization, model evaluation, cross-validation
-- **Classification Algorithms**: Binary classification, threshold optimization, ROC analysis, Decision Trees, Random Forests
+- **Classification Algorithms**: Binary classification, threshold optimization, ROC analysis, Decision Trees, Random Forests, K-Nearest Neighbors
 - **Ensemble Methods**: Random Forest implementation, hyperparameter tuning, feature importance
+- **Distance-Based Algorithms**: KNN optimization, distance metric analysis, weighting strategies
 - **Advanced Optimization**: GridSearchCV, automated parameter selection, model comparison
-- **Data Visualization**: Matplotlib, Seaborn, Plotly, correlation heatmaps, residual plots, ROC curves, decision trees
+- **Data Visualization**: Matplotlib, Seaborn, Plotly, correlation heatmaps, residual plots, ROC curves, decision trees, confusion matrices
 - **Python Libraries**: Pandas, NumPy, Scikit-learn, SciPy, pmdarima
 
 ### Analytical Skills
 - Statistical analysis and interpretation
 - Model performance evaluation and comparison
 - Feature importance analysis across multiple algorithms
-- Medical/domain insights extraction (healthcare diagnostics, automotive evaluation)
+- Medical/domain insights extraction (healthcare diagnostics, automotive evaluation, image recognition)
 - Precision-recall tradeoff analysis
 - Overfitting detection and prevention
 - Ensemble method reliability assessment
+- Distance metric impact analysis
+- Hyperparameter sensitivity analysis
 - Data-driven decision making
 
 ## Learning Outcomes
@@ -124,11 +152,12 @@ Each project has its own dependencies. Please refer to the respective project RE
 Through these projects, I have developed strong competencies in:
 - End-to-end data science pipeline implementation
 - Advanced statistical analysis and visualization
-- Machine learning model development and evaluation (regression, classification, ensemble methods)
-- Domain-specific insight extraction (retail, real estate, healthcare diagnostics, automotive)
+- Machine learning model development and evaluation (regression, classification, ensemble methods, distance-based algorithms)
+- Domain-specific insight extraction (retail, real estate, healthcare diagnostics, automotive, image recognition)
 - Medical analytics and clinical decision support systems
 - Hyperparameter optimization and model tuning
 - Ensemble method implementation and evaluation
+- Distance-based algorithm optimization and analysis
 - Professional documentation and code organization
 - Business intelligence extraction from machine learning models
 
@@ -140,6 +169,17 @@ The internship projects demonstrate progressive complexity:
 3. **Regression**: Linear models with regularization and validation
 4. **Classification**: Binary classification with medical applications
 5. **Advanced ML**: Ensemble methods, tree-based algorithms, hyperparameter tuning
+6. **Distance-Based ML**: KNN optimization, distance metrics, weighting strategies for image recognition
+
+## Algorithm Portfolio Coverage
+
+|     Algorithm Category         | Projects |                   Key Techniques                          |
+|--------------------------------|----------|-----------------------------------------------------------|
+| **Regression**                 | Task 3   | Linear Regression, Regularization, Cross-validation       |
+| **Binary Classification**      | Task 4   | Logistic Regression, ROC Analysis, Threshold Optimization |
+| **Ensemble Methods**           | Task 5   | Decision Trees, Random Forests, GridSearchCV              |
+| **Distance-Based**             | Task 6   | KNN, Distance Metrics, Weighting Strategies               |
+| **Multi-class Classification** | Task 6   | Handwritten Digit Recognition, Confusion Matrices         |
 
 ## Contact
 - **Name:** Ghanashyam T V  
@@ -148,4 +188,4 @@ The internship projects demonstrate progressive complexity:
 
 ---
 
-Elevate Labs AI & ML Internship Portfolio
+*Elevate Labs AI & ML Internship Portfolio - Demonstrating comprehensive machine learning expertise across regression, classification, ensemble methods, and distance-based algorithms*
