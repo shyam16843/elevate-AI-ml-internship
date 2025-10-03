@@ -107,6 +107,32 @@ This repository contains all projects and tasks completed during my AI & ML inte
   - Model achieves competitive performance against complex algorithms
   - Excellent computational efficiency (0.002s training time)
 
+### Task 7: Support Vector Machines (SVM) - Breast Cancer Diagnosis
+- **Description**: Advanced breast cancer diagnosis system using Support Vector Machines with comprehensive feature analysis, kernel optimization, hyperparameter tuning, and clinical performance evaluation achieving 98.2% accuracy.
+- **Technologies**: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+- **Status**: Completed ✅
+- [View Project](./task7-SVM/README.md)
+- **Key Features**:
+  - Comprehensive feature analysis and clinical interpretation
+  - Kernel function comparison (Linear, RBF, Polynomial, Sigmoid)
+  - Hyperparameter optimization (C, gamma) with grid search
+  - Feature importance analysis with medical insights
+  - Clinical performance metrics (sensitivity, specificity, ROC-AUC)
+  - Decision boundary visualization using PCA
+  - Model comparison against other classifiers
+- **Performance**:
+  - **Accuracy**: 98.2%
+  - **Sensitivity**: 97.1% (crucial for cancer detection)
+  - **Specificity**: 98.9%
+  - **ROC-AUC**: 99.3%
+  - **Best Parameters**: RBF kernel, C=1.0, gamma='scale'
+- **Key Insights**:
+  - Worst concave points and perimeter are strongest cancer indicators
+  - RBF kernel outperforms others for non-linear medical data
+  - Moderate regularization (C=1) provides optimal bias-variance tradeoff
+  - Model achieves performance comparable to expert radiologists
+  - Suitable for clinical decision support applications
+
 ## Progress Tracking
 
 | Task | Project Name                                       | Status    | Completion Date |
@@ -117,7 +143,7 @@ This repository contains all projects and tasks completed during my AI & ML inte
 | 4    | Logistic Regression - Breast Cancer Diagnosis      | Completed | 2025-09-25      |
 | 5    | Decision Trees & Random Forests - Car Evaluation   | Completed | 2025-09-29      |
 | 6    | KNN Classification - Handwritten Digit Recognition | Completed | 2025-09-30      |
-|      | (Add entries for other tasks)                      |           |                 |
+| 7    | SVM Classification - Breast Cancer Diagnosis       | Completed | 2025-10-01      |
 
 ## Installation
 Each project has its own dependencies. Please refer to the respective project README for environment setup and running instructions.
@@ -128,11 +154,12 @@ Each project has its own dependencies. Please refer to the respective project RE
 - **Data Preprocessing**: Missing value handling, outlier detection, normalization, encoding
 - **Exploratory Data Analysis**: Statistical analysis, correlation studies, visualization
 - **Machine Learning**: Linear regression, logistic regression, regularization, model evaluation, cross-validation
-- **Classification Algorithms**: Binary classification, threshold optimization, ROC analysis, Decision Trees, Random Forests, K-Nearest Neighbors
+- **Classification Algorithms**: Binary classification, threshold optimization, ROC analysis, Decision Trees, Random Forests, K-Nearest Neighbors, Support Vector Machines
 - **Ensemble Methods**: Random Forest implementation, hyperparameter tuning, feature importance
 - **Distance-Based Algorithms**: KNN optimization, distance metric analysis, weighting strategies
+- **Kernel Methods**: SVM with multiple kernel functions, parameter optimization
 - **Advanced Optimization**: GridSearchCV, automated parameter selection, model comparison
-- **Data Visualization**: Matplotlib, Seaborn, Plotly, correlation heatmaps, residual plots, ROC curves, decision trees, confusion matrices
+- **Data Visualization**: Matplotlib, Seaborn, Plotly, correlation heatmaps, residual plots, ROC curves, decision trees, confusion matrices, decision boundaries
 - **Python Libraries**: Pandas, NumPy, Scikit-learn, SciPy, pmdarima
 
 ### Analytical Skills
@@ -144,20 +171,23 @@ Each project has its own dependencies. Please refer to the respective project RE
 - Overfitting detection and prevention
 - Ensemble method reliability assessment
 - Distance metric impact analysis
+- Kernel selection and parameter optimization
 - Hyperparameter sensitivity analysis
 - Data-driven decision making
+- Clinical performance evaluation (sensitivity, specificity)
 
 ## Learning Outcomes
 
 Through these projects, I have developed strong competencies in:
 - End-to-end data science pipeline implementation
 - Advanced statistical analysis and visualization
-- Machine learning model development and evaluation (regression, classification, ensemble methods, distance-based algorithms)
+- Machine learning model development and evaluation (regression, classification, ensemble methods, distance-based algorithms, kernel methods)
 - Domain-specific insight extraction (retail, real estate, healthcare diagnostics, automotive, image recognition)
 - Medical analytics and clinical decision support systems
 - Hyperparameter optimization and model tuning
 - Ensemble method implementation and evaluation
 - Distance-based algorithm optimization and analysis
+- SVM kernel selection and parameter optimization
 - Professional documentation and code organization
 - Business intelligence extraction from machine learning models
 
@@ -170,16 +200,35 @@ The internship projects demonstrate progressive complexity:
 4. **Classification**: Binary classification with medical applications
 5. **Advanced ML**: Ensemble methods, tree-based algorithms, hyperparameter tuning
 6. **Distance-Based ML**: KNN optimization, distance metrics, weighting strategies for image recognition
+7. **Kernel Methods**: SVM with kernel optimization for complex decision boundaries
 
 ## Algorithm Portfolio Coverage
 
-|     Algorithm Category         | Projects |                   Key Techniques                          |
-|--------------------------------|----------|-----------------------------------------------------------|
-| **Regression**                 | Task 3   | Linear Regression, Regularization, Cross-validation       |
-| **Binary Classification**      | Task 4   | Logistic Regression, ROC Analysis, Threshold Optimization |
-| **Ensemble Methods**           | Task 5   | Decision Trees, Random Forests, GridSearchCV              |
-| **Distance-Based**             | Task 6   | KNN, Distance Metrics, Weighting Strategies               |
-| **Multi-class Classification** | Task 6   | Handwritten Digit Recognition, Confusion Matrices         |
+| Algorithm Category          | Projects | Key Techniques |
+|-----------------------------|----------|----------------|
+| **Regression**              | Task 3   | Linear Regression, Regularization, Cross-validation |
+| **Binary Classification**   | Task 4   | Logistic Regression, ROC Analysis, Threshold Optimization |
+| **Ensemble Methods**        | Task 5   | Decision Trees, Random Forests, GridSearchCV |
+| **Distance-Based**          | Task 6   | KNN, Distance Metrics, Weighting Strategies |
+| **Kernel Methods**          | Task 7   | SVM, Kernel Selection, Hyperparameter Tuning |
+| **Multi-class Classification** | Task 6   | Handwritten Digit Recognition, Confusion Matrices |
+| **Medical Diagnostics**     | Task 4, 7 | Clinical Performance Metrics, Sensitivity Analysis |
+
+## Clinical Applications Expertise
+
+### Healthcare Diagnostics
+- **Breast Cancer Diagnosis** (Tasks 4 & 7): Developed multiple classification systems achieving >98% accuracy
+- **Diabetes Progression Prediction** (Task 3): Regression analysis for disease monitoring
+- **Clinical Feature Interpretation**: Medical insights from feature importance analysis
+- **Safety-Critical Performance**: Focus on sensitivity and false negative minimization
+
+### Technical Competencies in Medical AI
+- ROC-AUC analysis for diagnostic performance
+- Sensitivity-specificity tradeoff optimization
+- Clinical decision threshold selection
+- Feature importance with medical relevance
+- Model interpretability for healthcare applications
+- Ethical considerations in medical AI
 
 ## Contact
 - **Name:** Ghanashyam T V  
@@ -188,4 +237,4 @@ The internship projects demonstrate progressive complexity:
 
 ---
 
-*Elevate Labs AI & ML Internship Portfolio - Demonstrating comprehensive machine learning expertise across regression, classification, ensemble methods, and distance-based algorithms*
+*Elevate Labs AI & ML Internship Portfolio - Demonstrating comprehensive machine learning expertise across regression, classification, ensemble methods, distance-based algorithms, and kernel methods with specialized focus on healthcare diagnostics*
