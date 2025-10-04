@@ -133,6 +133,36 @@ This repository contains all projects and tasks completed during my AI & ML inte
   - Model achieves performance comparable to expert radiologists
   - Suitable for clinical decision support applications
 
+### Task 8: Customer Segmentation using K-Means Clustering
+- **Description**: Comprehensive customer segmentation system using K-Means clustering to identify distinct customer groups based on purchasing behavior and demographic characteristics. Features detailed exploratory data analysis, optimal cluster determination, customer profiling, and actionable business insights.
+- **Technologies**: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+- **Status**: Completed ✅
+- [View Project](./task8-kmeans/README.md)
+- **Key Features**:
+  - Systematic cluster optimization using elbow method
+  - Comprehensive customer profiling with demographic insights
+  - Business-focused segment interpretation and marketing strategies
+  - Quality validation using silhouette scoring (0.55+)
+  - PCA visualization for multidimensional insight
+  - Actionable marketing recommendations for each segment
+- **Performance**:
+  - **Optimal Clusters**: K=5 (validated by elbow method)
+  - **Silhouette Score**: 0.55+ (Reasonable clustering structure)
+  - **Segment Balance**: Well-distributed across 5 groups
+  - **Business Interpretability**: High clarity and actionability
+- **Customer Segments Identified**:
+  - **Segment 0**: Average Customers (Medium income, medium spending)
+  - **Segment 1**: Premium Customers (High income, high spending)
+  - **Segment 2**: High-Spending Middle Class (Medium-high income, high spending)
+  - **Segment 3**: Conservative High-Income (High income, low spending)
+  - **Segment 4**: Budget-Conscious (Low income, low spending)
+- **Key Insights**:
+  - Clear separation of 5 distinct customer behavior patterns
+  - Income and spending are primary segmentation drivers
+  - Each segment has clear demographic and behavioral characteristics
+  - Well-balanced customer distribution supports resource planning
+  - Direct applications for targeted marketing and business strategy
+
 ## Progress Tracking
 
 | Task | Project Name                                       | Status    | Completion Date |
@@ -144,9 +174,7 @@ This repository contains all projects and tasks completed during my AI & ML inte
 | 5    | Decision Trees & Random Forests - Car Evaluation   | Completed | 2025-09-29      |
 | 6    | KNN Classification - Handwritten Digit Recognition | Completed | 2025-09-30      |
 | 7    | SVM Classification - Breast Cancer Diagnosis       | Completed | 2025-10-01      |
-
-## Installation
-Each project has its own dependencies. Please refer to the respective project README for environment setup and running instructions.
+| 8    | Customer Segmentation using K-Means Clustering     | Completed | 2025-10-02      |
 
 ## Skills Demonstrated
 
@@ -155,23 +183,28 @@ Each project has its own dependencies. Please refer to the respective project RE
 - **Exploratory Data Analysis**: Statistical analysis, correlation studies, visualization
 - **Machine Learning**: Linear regression, logistic regression, regularization, model evaluation, cross-validation
 - **Classification Algorithms**: Binary classification, threshold optimization, ROC analysis, Decision Trees, Random Forests, K-Nearest Neighbors, Support Vector Machines
+- **Clustering Algorithms**: K-Means clustering, elbow method, silhouette analysis, customer segmentation
 - **Ensemble Methods**: Random Forest implementation, hyperparameter tuning, feature importance
 - **Distance-Based Algorithms**: KNN optimization, distance metric analysis, weighting strategies
 - **Kernel Methods**: SVM with multiple kernel functions, parameter optimization
+- **Unsupervised Learning**: Customer segmentation, cluster analysis, business intelligence extraction
 - **Advanced Optimization**: GridSearchCV, automated parameter selection, model comparison
-- **Data Visualization**: Matplotlib, Seaborn, Plotly, correlation heatmaps, residual plots, ROC curves, decision trees, confusion matrices, decision boundaries
+- **Data Visualization**: Matplotlib, Seaborn, Plotly, correlation heatmaps, residual plots, ROC curves, decision trees, confusion matrices, decision boundaries, cluster visualizations
 - **Python Libraries**: Pandas, NumPy, Scikit-learn, SciPy, pmdarima
 
 ### Analytical Skills
 - Statistical analysis and interpretation
 - Model performance evaluation and comparison
 - Feature importance analysis across multiple algorithms
-- Medical/domain insights extraction (healthcare diagnostics, automotive evaluation, image recognition)
+- Medical/domain insights extraction (healthcare diagnostics, automotive evaluation, image recognition, customer analytics)
 - Precision-recall tradeoff analysis
 - Overfitting detection and prevention
 - Ensemble method reliability assessment
 - Distance metric impact analysis
 - Kernel selection and parameter optimization
+- Cluster analysis and business intelligence extraction
+- Customer behavior pattern recognition
+- Marketing strategy development from data insights
 - Hyperparameter sensitivity analysis
 - Data-driven decision making
 - Clinical performance evaluation (sensitivity, specificity)
@@ -181,12 +214,14 @@ Each project has its own dependencies. Please refer to the respective project RE
 Through these projects, I have developed strong competencies in:
 - End-to-end data science pipeline implementation
 - Advanced statistical analysis and visualization
-- Machine learning model development and evaluation (regression, classification, ensemble methods, distance-based algorithms, kernel methods)
-- Domain-specific insight extraction (retail, real estate, healthcare diagnostics, automotive, image recognition)
+- Machine learning model development and evaluation (regression, classification, clustering, ensemble methods, distance-based algorithms, kernel methods)
+- Domain-specific insight extraction (retail, real estate, healthcare diagnostics, automotive, image recognition, customer analytics)
 - Medical analytics and clinical decision support systems
+- Business intelligence and customer segmentation strategies
 - Hyperparameter optimization and model tuning
 - Ensemble method implementation and evaluation
 - Distance-based algorithm optimization and analysis
+- Unsupervised learning applications for business insights
 - SVM kernel selection and parameter optimization
 - Professional documentation and code organization
 - Business intelligence extraction from machine learning models
@@ -201,6 +236,7 @@ The internship projects demonstrate progressive complexity:
 5. **Advanced ML**: Ensemble methods, tree-based algorithms, hyperparameter tuning
 6. **Distance-Based ML**: KNN optimization, distance metrics, weighting strategies for image recognition
 7. **Kernel Methods**: SVM with kernel optimization for complex decision boundaries
+8. **Unsupervised Learning**: K-Means clustering for customer segmentation and business intelligence
 
 ## Algorithm Portfolio Coverage
 
@@ -211,10 +247,12 @@ The internship projects demonstrate progressive complexity:
 | **Ensemble Methods**        | Task 5   | Decision Trees, Random Forests, GridSearchCV |
 | **Distance-Based**          | Task 6   | KNN, Distance Metrics, Weighting Strategies |
 | **Kernel Methods**          | Task 7   | SVM, Kernel Selection, Hyperparameter Tuning |
+| **Clustering**              | Task 8   | K-Means, Elbow Method, Silhouette Analysis |
 | **Multi-class Classification** | Task 6   | Handwritten Digit Recognition, Confusion Matrices |
 | **Medical Diagnostics**     | Task 4, 7 | Clinical Performance Metrics, Sensitivity Analysis |
+| **Business Intelligence**   | Task 8   | Customer Segmentation, Marketing Strategy Development |
 
-## Clinical Applications Expertise
+## Domain Expertise Developed
 
 ### Healthcare Diagnostics
 - **Breast Cancer Diagnosis** (Tasks 4 & 7): Developed multiple classification systems achieving >98% accuracy
@@ -222,13 +260,21 @@ The internship projects demonstrate progressive complexity:
 - **Clinical Feature Interpretation**: Medical insights from feature importance analysis
 - **Safety-Critical Performance**: Focus on sensitivity and false negative minimization
 
-### Technical Competencies in Medical AI
+### Business Analytics & Customer Intelligence
+- **Customer Segmentation** (Task 8): Identified 5 distinct customer segments with actionable insights
+- **Marketing Strategy Development**: Segment-specific campaign recommendations
+- **Business Intelligence**: Data-driven decision making for resource allocation
+- **Customer Behavior Analysis**: Pattern recognition in purchasing behavior
+
+### Technical Competencies in Applied ML
 - ROC-AUC analysis for diagnostic performance
 - Sensitivity-specificity tradeoff optimization
 - Clinical decision threshold selection
-- Feature importance with medical relevance
-- Model interpretability for healthcare applications
-- Ethical considerations in medical AI
+- Feature importance with domain relevance
+- Model interpretability for business applications
+- Ethical considerations in AI applications
+- Cluster analysis for market segmentation
+- Business strategy development from data insights
 
 ## Contact
 - **Name:** Ghanashyam T V  
@@ -237,4 +283,4 @@ The internship projects demonstrate progressive complexity:
 
 ---
 
-*Elevate Labs AI & ML Internship Portfolio - Demonstrating comprehensive machine learning expertise across regression, classification, ensemble methods, distance-based algorithms, and kernel methods with specialized focus on healthcare diagnostics*
+*Elevate Labs AI & ML Internship Portfolio - Demonstrating comprehensive machine learning expertise across regression, classification, clustering, ensemble methods, distance-based algorithms, and kernel methods with specialized focus on healthcare diagnostics and business intelligence applications*
